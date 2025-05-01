@@ -1,5 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement; // 顶部别忘了加这一行
+
 
 
 public class StartSceneManager : MonoBehaviour
@@ -33,9 +35,10 @@ public class StartSceneManager : MonoBehaviour
         if (canContinue && Input.GetKeyDown(KeyCode.Space))
         {
             Debug.Log("Continue pressed");
-            // 这里可以加你正式进入故事的代码，比如关掉UI，切换状态
+            SceneManager.LoadScene("Scene_01_FirstWish"); // 替换为你的第一幕场景名称
         }
     }
+
 
     void FadeInBlackScreen()
     {
@@ -106,4 +109,6 @@ public class StartSceneManager : MonoBehaviour
         }
         SetAlpha(txt, endAlpha);
     }
+
+
 }

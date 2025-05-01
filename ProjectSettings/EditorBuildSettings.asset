@@ -4,7 +4,31 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Scene_01_FirstWish.unity
+    guid: ca838c7c5eeecd64e8ef904660480e7e
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Scene_02_SecondWish.unity
+    guid: 2a137b82d036d6e4d9dd4cbc0642de99
+  - enabled: 1
+    path: Assets/Scenes/Scene_02_Tran.unity
+    guid: 017eeb92b77a2e841adc9317866d84ba
+  - enabled: 1
+    path: Assets/Scenes/Scene_03_ThirdWish.unity
+    guid: 0021f7ac0cc0b6841996e82d7135bae1
+  - enabled: 1
+    path: Assets/Scenes/Scene_03_Tran.unity
+    guid: cdf888a9186332144988c0508ea8ab94
+  - enabled: 1
+    path: Assets/Scenes/Scene_04_ForthWish.unity
+    guid: 90ad667e1296b6e4cb86f54c5ed3f34b
+  - enabled: 1
+    path: Assets/Scenes/Scene_04_Tran.unity
+    guid: a038b44f6b82d034591e336bc53d9710
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: acc7d991a3eb5476caea9f98328153a0, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a0819ca8fb13742808568190e971f138, type: 2}
