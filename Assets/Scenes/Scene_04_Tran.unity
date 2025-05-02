@@ -10126,7 +10126,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: b1424ac5c9c42814e940d54926d00aac, type: 3}
+  m_audioClip: {fileID: 8300000, guid: a7a0610989911440ab451f29bc464aca, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -10226,7 +10226,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soulCore: {fileID: 930686885}
   voiceSource: {fileID: 1513554823}
-  finalVoice: {fileID: 8300000, guid: b1424ac5c9c42814e940d54926d00aac, type: 3}
+  finalVoice: {fileID: 8300000, guid: a7a0610989911440ab451f29bc464aca, type: 3}
   touchHintText: {fileID: 78187366}
   finalMessageText: {fileID: 345853408}
   blackPanel: {fileID: 870514972}
