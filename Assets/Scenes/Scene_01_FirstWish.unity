@@ -31762,6 +31762,7 @@ GameObject:
   - component: {fileID: 1594933104}
   - component: {fileID: 1594933105}
   - component: {fileID: 1594933106}
+  - component: {fileID: 1594933107}
   m_Layer: 0
   m_Name: YoungGirl
   m_TagString: Untagged
@@ -31831,6 +31832,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bae75d92b423455b85a1dd764307010, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  animationName: CINEMA_4D___
+  loopCount: 0
 --- !u!114 &1594933105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31861,6 +31865,21 @@ MonoBehaviour:
   - Bip01_L_Hand
   - Bip01_Spine
   - Bip01_Head
+--- !u!114 &1594933107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594933100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bae75d92b423455b85a1dd764307010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1594933101}
+  animationName: CINEMA_4D___
+  loopCount: 3
 --- !u!1 &1608621184
 GameObject:
   m_ObjectHideFlags: 0
