@@ -61,4 +61,11 @@ public class VoiceManager : MonoBehaviour
         yield return new WaitForSeconds(voice4.length + 3f); // 播完语音再等三秒
         FindObjectOfType<FadeToBlackManager>().StartFade(); // 黑幕淡入（文字已在画面中）
     }
+
+    public void PlayFinalVoice()
+    {
+        StartCoroutine(PlayVoice4Sequence());
+    }
+
+
 }
